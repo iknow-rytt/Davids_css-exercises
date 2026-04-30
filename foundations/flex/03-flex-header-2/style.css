@@ -52,19 +52,18 @@ ul {
 .header {
   display: flex;
   justify-content: space-between;
+  padding: 8px;
 }
 
 ul{
   display: flex;
-  gap: 8px;
-}
-.header-right{
-  display: flex;
-  justify-content: space-around;
-  gap: 8px;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
 }
 
-.header-left{
-  margin-right: 20px;
+.header-left, .header-right{
   display: flex;
+  align-items: center;
+  gap: 16px;
 }
